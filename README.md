@@ -17,6 +17,8 @@
 
 ```bash
 
+git clone --recursive https://github.com/anonymous5l/nxplayer.git
+
 cd nxplayer
 
 ## OpenGL版本
@@ -27,3 +29,8 @@ docker run --platform linux/amd64 --rm -v $(pwd):/data devkitpro/devkita64:20240
 docker run --platform linux/amd64 --rm -v $(pwd):/data devkitpro/devkita64:20240324 \
   bash -c "/data/scripts/build_switch_deko3d.sh"
 ```
+
+## MPV配置
+
+Switch下可以将字幕字体文件放入`SD卡/config/mpv/`目录下，没有的话自己创建。字体文件名为`subfont.ttf`，具体配置目录参考[mpv](https://mpv.io/manual/master/#FILES)下的`Files`段。
+不放置的话可能会导致`MPV`播放视频中文字体乱码。
