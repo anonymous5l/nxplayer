@@ -1,0 +1,3 @@
+[submodule "thirdparty/borealis"]
+	path = thirdparty/borealis
+	url = https://github.com/anonymous5l/borealis.git

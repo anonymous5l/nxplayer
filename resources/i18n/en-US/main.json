@@ -1,0 +1,38 @@
+{
+  "tabs": {
+    "local": "Local Disk"
+  },
+  "player": {
+    "speed": "Speed",
+    "current_speed": "Current Speed {}",
+    "exit_hint": "Exit to home"
+  },
+  "setting": {
+    "header": "Player Setting",
+    "subtitle": "Subtitle",
+    "common": "Common",
+    "sleep": "Timing Off",
+    "aspect": {
+      "header":"Video Aspect",
+      "crop": "Crop",
+      "stretch": "Stretch",
+      "auto": "Auto"
+    },
+    "equalizer": {
+      "header": "Equalizer",
+      "brightness": "Brightness",
+      "contrast": "Contrast",
+      "saturation": "Saturation",
+      "gamma": "Gamma",
+      "hue": "Hue",
+      "reset": "Reset"
+    },
+    "bottom_progress": "Always show progress bar",
+    "track": {
+      "audio": "Audio Track"
+    }
+  },
+  "common": {
+    "minute": "Minute"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "tabs": {
+    "local": "本地文件"
+  },
+  "player": {
+    "speed": "倍速",
+    "current_speed": "{} 倍速播放中",
+    "exit_hint": "退出当前播放吗"
+  },
+  "setting": {
+    "header": "播放设置",
+    "subtitle": "字幕",
+    "common": "通用",
+    "sleep": "定时关闭",
+    "aspect": {
+      "header":"视频比例",
+      "crop": "填充",
+      "stretch": "拉伸",
+      "auto": "自动"
+    },
+    "equalizer": {
+      "header": "均衡器",
+      "brightness": "亮度",
+      "contrast": "对比度",
+      "saturation": "饱和度",
+      "gamma": "伽马值",
+      "hue": "色调",
+      "reset": "重置"
+    },
+    "bottom_progress": "底部固定显示进度条",
+    "track": {
+      "audio": "音轨"
+    }
+  },
+  "common": {
+    "minute": "分钟"
+  }
+}

@@ -1,0 +1,132 @@
+<brls:Box
+        width="auto"
+        height="auto"
+        justifyContent="flexEnd"
+        backgroundColor="@theme/brls/backdrop">
+
+    <brls:Box
+            height="100%"
+            hideClickAnimation="true"
+            grow="1" />
+
+    <brls:Box
+            width="460"
+            height="100%"
+            axis="column"
+            backgroundColor="@theme/brls/background">
+
+        <brls:Label
+                height="24"
+                margin="20"
+                fontSize="24"
+                text="@i18n/main/setting/header" />
+
+        <brls:ScrollingFrame
+                id="player/settings"
+                width="100%"
+                grow="1"
+                scrollingBehavior="centered">
+
+            <brls:Box
+                    width="auto"
+                    height="auto"
+                    axis="column"
+                    paddingLeft="40"
+                    paddingRight="@style/brls/tab_frame/content_padding_sides"
+                    paddingBottom="@style/brls/tab_frame/content_padding_top_bottom"
+                    alignItems="stretch">
+
+                <brls:Header
+                        id="setting/video/subtitle/header"
+                        width="auto"
+                        height="auto"
+                        visibility="gone"
+                        title="@i18n/main/setting/subtitle"
+                        marginBottom="0px"/>
+
+                <brls:Box
+                        id="setting/video/subtitle/box"
+                        width="100%"
+                        height="auto"
+                        axis="column"
+                        visibility="gone"
+                        marginBottom="30px">
+
+                </brls:Box>
+
+                <brls:Header
+                        id="setting/track/audio/header"
+                        width="auto"
+                        height="auto"
+                        visibility="gone"
+                        title="@i18n/main/setting/track/audio"
+                        marginBottom="0px"/>
+
+                <brls:Box
+                        id="setting/track/audio/box"
+                        width="100%"
+                        height="auto"
+                        axis="column"
+                        visibility="gone"
+                        marginBottom="30px">
+
+                </brls:Box>
+
+                <brls:Header
+                        width="auto"
+                        height="auto"
+                        title="@i18n/main/setting/common"
+                        marginBottom="0px"/>
+                <brls:Box
+                        width="100%"
+                        height="auto"
+                        axis="column"
+                        marginBottom="30px">
+
+                    <brls:DetailCell
+                            id="setting/sleep" />
+
+                    <brls:BooleanCell
+                            id="setting/video/progress" />
+
+                    <brls:SelectorCell
+                            id="setting/video/aspect" />
+                </brls:Box>
+
+                <brls:Header
+                        width="auto"
+                        height="auto"
+                        title="@i18n/main/setting/equalizer/header"
+                        marginBottom="0px"/>
+                <brls:Box
+                        width="100%"
+                        height="auto"
+                        axis="column"
+                        marginBottom="30px">
+                    <brls:SliderCell
+                            id="setting/equalizer/brightness"
+                            title="@i18n/main/setting/equalizer/brightness" />
+                    <brls:SliderCell
+                            id="setting/equalizer/contrast"
+                            title="@i18n/main/setting/equalizer/contrast" />
+                    <brls:SliderCell
+                            id="setting/equalizer/saturation"
+                            title="@i18n/main/setting/equalizer/saturation" />
+                    <brls:SliderCell
+                            id="setting/equalizer/gamma"
+                            title="@i18n/main/setting/equalizer/gamma" />
+                    <brls:SliderCell
+                            id="setting/equalizer/hue"
+                            title="@i18n/main/setting/equalizer/hue" />
+                    <brls:RadioCell
+                            id="setting/equalizer/reset"
+                            title="@i18n/main/setting/equalizer/reset"/>
+
+                </brls:Box>
+            </brls:Box>
+
+        </brls:ScrollingFrame>
+
+    </brls:Box>
+
+</brls:Box>
